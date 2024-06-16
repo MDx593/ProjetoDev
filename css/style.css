@@ -59,27 +59,6 @@ body{
 
 /*Custom style para nosso painel*/
 
-.navbar{
-  margin-bottom: 0 !important;
-  border-radius: 0;
-}
-
-header#header{
-  background: #333;
-  color: white;
-  margin-bottom: 20px;
-}
-
-#header h2{
-  margin-top: 20px;
-}
-
-#header p{
-  margin-top: 20px;
-  position: relative;
-  top: 9px;
-}
-
 @media screen and (max-width: 1000px;){
   #header{
     text-align: center;
