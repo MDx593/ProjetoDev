@@ -20,16 +20,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Painel de Controle</a>
+                <a class="navbar-brand" href="#">SINAJUVE</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul id="menu-principal" class="nav navbar-nav">
-                    <li class="active"><a ref_sys="sobre" href="#">Editar Sobre</a></li>
-                    <li><a ref_sys="cadastrar_equipe" href="#">Cadastrar Equipe</a></li>
-                    <li><a ref_sys="lista_equipe" href="#">Listar Equipe</a></li>
+                    <li class="active"><a ref_sys="sobre" href="#">Formulário de Adesão</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="?sair"><span class="glyphicon glyphicon-log-in"></span> Loggout</a></li>
+                    <li><a href="?sair"><span class="glyphicon glyphicon-log-in"></span> Entrar com o Gov.br</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
