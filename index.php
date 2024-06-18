@@ -27,7 +27,7 @@
                     <li class="active"><a ref_sys="sobre" href="#">Formulário de Adesão</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="?sair"><span class="glyphicon glyphicon-log-in"></span> Entrar com o Gov.br</a></li>
+                    <li><a href="https://sso.acesso.gov.br/login?client_id=portal-logado.estaleiro.serpro.gov.br&authorization_id=1902bab89d5" target="_blank"><span class="glyphicon glyphicon-log-in"></span> Entrar com o Gov.br</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -67,12 +67,12 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputCity">Cidade</label>
-                    <input type="text" class="form-control" id="inputCity" required />
+                    <input type="text" class="form-control" id="inputCity" required placeholder="Taiobeiras"/>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputEstado">Estado</label>
                     <select id="inputEstado" class="form-control">
-                        <option selected>Escolher...</option>
+                        <option selected>Escolha...</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
                         <option value="AP">Amapá</option>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputCEP">CEP</label>
-                    <input type="text" class="form-control" id="inputCEP">
+                    <input type="text" class="form-control" id="inputCEP" placeholder="73.800-000">
                 </div>
             </div>
             <div class="form-group">
